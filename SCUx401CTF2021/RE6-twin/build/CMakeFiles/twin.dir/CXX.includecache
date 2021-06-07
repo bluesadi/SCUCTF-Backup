@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/workspace/RE6-twin/src/twin.cpp
+cstdio
+-
+unistd.h
+-
+sys/wait.h
+-
+cstring
+-
+cstdlib
+-
+

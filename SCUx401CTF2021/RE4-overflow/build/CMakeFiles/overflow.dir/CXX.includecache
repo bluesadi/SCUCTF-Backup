@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/RC4.h
+algorithm
+-
+stdint.h
+-
+
+../include/TEA.h
+stdint.h
+-
+cstring
+-
+
+/home/ubuntu/workspace/RE4-overflow/src/RC4.cpp
+RC4.h
+/home/ubuntu/workspace/RE4-overflow/src/RC4.h
+cstdio
+-
+
+/home/ubuntu/workspace/RE4-overflow/src/TEA.cpp
+TEA.h
+/home/ubuntu/workspace/RE4-overflow/src/TEA.h
+
+/home/ubuntu/workspace/RE4-overflow/src/overflow.cpp
+RC4.h
+/home/ubuntu/workspace/RE4-overflow/src/RC4.h
+TEA.h
+/home/ubuntu/workspace/RE4-overflow/src/TEA.h
+cstdio
+-
+cstdlib
+-
+unistd.h
+-
+fcntl.h
+-
+

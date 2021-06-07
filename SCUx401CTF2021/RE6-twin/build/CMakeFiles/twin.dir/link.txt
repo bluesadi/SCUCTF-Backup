@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g   CMakeFiles/twin.dir/src/twin.cpp.o  -o twin 

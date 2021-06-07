@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ubuntu/workspace/RE6-twin/build",
+  "command": "/usr/bin/g++-7   -I/home/ubuntu/workspace/RE6-twin/include  -g   -o CMakeFiles/twin.dir/src/twin.cpp.o -c /home/ubuntu/workspace/RE6-twin/src/twin.cpp",
+  "file": "/home/ubuntu/workspace/RE6-twin/src/twin.cpp"
+}
+]
