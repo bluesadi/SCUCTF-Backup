@@ -1,4 +1,7 @@
 # SCUCTF-Backup
-SCUCTF新生赛2020：[**官方WriteUp**](http://blog.bluesadi.cn:4000/2020/11/26/SCUCTF-2020%E6%96%B0%E7%94%9F%E8%B5%9B-RE%E9%83%A8%E5%88%86WP/)
+SCUCTF新生赛2020：官方WriteUp
 
 SCUCTF校赛2021(2021/6/5-2021/6/6)：官方WriteUp
+
+SCUCTF新生赛2021(2021/11/19-2021/11/23)：[官方WriteUp](SCUCTF新生赛2021/SCUCTF新生赛2021逆向题WriteUp.pdf)
+
