@@ -1,0 +1,357 @@
+0: jmp 101
+3: clear_mem
+4: set_mem_ptr 0
+6: mov r0, 10
+12: mov mem[0], r0
+14: add_mem_ptr 1
+16: mov r0, 87('W')
+22: mov mem[1], r0
+24: add_mem_ptr 1
+26: mov r0, 114('r')
+32: mov mem[2], r0
+34: add_mem_ptr 1
+36: mov r0, 111('o')
+42: mov mem[3], r0
+44: add_mem_ptr 1
+46: mov r0, 110('n')
+52: mov mem[4], r0
+54: add_mem_ptr 1
+56: mov r0, 103('g')
+62: mov mem[5], r0
+64: add_mem_ptr 1
+66: mov r0, 33('!')
+72: mov mem[6], r0
+74: add_mem_ptr 1
+76: mov r0, 32(' ')
+82: mov mem[7], r0
+84: add_mem_ptr 1
+86: mov r0, 10
+92: mov mem[8], r0
+94: add_mem_ptr 1
+96: set_mem_ptr 0
+98: write 8
+100: end
+101: mov r0, 72('H')
+107: mov mem[0], r0
+109: add_mem_ptr 1
+111: mov r0, 101('e')
+117: mov mem[1], r0
+119: add_mem_ptr 1
+121: mov r0, 108('l')
+127: mov mem[2], r0
+129: add_mem_ptr 1
+131: mov r0, 108('l')
+137: mov mem[3], r0
+139: add_mem_ptr 1
+141: mov r0, 111('o')
+147: mov mem[4], r0
+149: add_mem_ptr 1
+151: mov r0, 33('!')
+157: mov mem[5], r0
+159: add_mem_ptr 1
+161: mov r0, 32(' ')
+167: mov mem[6], r0
+169: add_mem_ptr 1
+171: mov r0, 87('W')
+177: mov mem[7], r0
+179: add_mem_ptr 1
+181: mov r0, 101('e')
+187: mov mem[8], r0
+189: add_mem_ptr 1
+191: mov r0, 108('l')
+197: mov mem[9], r0
+199: add_mem_ptr 1
+201: mov r0, 99('c')
+207: mov mem[10], r0
+209: add_mem_ptr 1
+211: mov r0, 111('o')
+217: mov mem[11], r0
+219: add_mem_ptr 1
+221: mov r0, 109('m')
+227: mov mem[12], r0
+229: add_mem_ptr 1
+231: mov r0, 101('e')
+237: mov mem[13], r0
+239: add_mem_ptr 1
+241: mov r0, 32(' ')
+247: mov mem[14], r0
+249: add_mem_ptr 1
+251: mov r0, 116('t')
+257: mov mem[15], r0
+259: add_mem_ptr 1
+261: mov r0, 111('o')
+267: mov mem[16], r0
+269: add_mem_ptr 1
+271: mov r0, 32(' ')
+277: mov mem[17], r0
+279: add_mem_ptr 1
+281: mov r0, 115('s')
+287: mov mem[18], r0
+289: add_mem_ptr 1
+291: mov r0, 99('c')
+297: mov mem[19], r0
+299: add_mem_ptr 1
+301: mov r0, 117('u')
+307: mov mem[20], r0
+309: add_mem_ptr 1
+311: mov r0, 99('c')
+317: mov mem[21], r0
+319: add_mem_ptr 1
+321: mov r0, 116('t')
+327: mov mem[22], r0
+329: add_mem_ptr 1
+331: mov r0, 102('f')
+337: mov mem[23], r0
+339: add_mem_ptr 1
+341: mov r0, 32(' ')
+347: mov mem[24], r0
+349: add_mem_ptr 1
+351: mov r0, 99('c')
+357: mov mem[25], r0
+359: add_mem_ptr 1
+361: mov r0, 104('h')
+367: mov mem[26], r0
+369: add_mem_ptr 1
+371: mov r0, 97('a')
+377: mov mem[27], r0
+379: add_mem_ptr 1
+381: mov r0, 108('l')
+387: mov mem[28], r0
+389: add_mem_ptr 1
+391: mov r0, 108('l')
+397: mov mem[29], r0
+399: add_mem_ptr 1
+401: mov r0, 101('e')
+407: mov mem[30], r0
+409: add_mem_ptr 1
+411: mov r0, 110('n')
+417: mov mem[31], r0
+419: add_mem_ptr 1
+421: mov r0, 103('g')
+427: mov mem[32], r0
+429: add_mem_ptr 1
+431: mov r0, 101('e')
+437: mov mem[33], r0
+439: add_mem_ptr 1
+441: mov r0, 33('!')
+447: mov mem[34], r0
+449: add_mem_ptr 1
+451: sub_mem_ptr 35
+453: write 35
+455: mov r0, 10
+461: mov mem[0], r0
+463: add_mem_ptr 1
+465: mov r0, 73('I')
+471: mov mem[1], r0
+473: add_mem_ptr 1
+475: mov r0, 110('n')
+481: mov mem[2], r0
+483: add_mem_ptr 1
+485: mov r0, 112('p')
+491: mov mem[3], r0
+493: add_mem_ptr 1
+495: mov r0, 117('u')
+501: mov mem[4], r0
+503: add_mem_ptr 1
+505: mov r0, 116('t')
+511: mov mem[5], r0
+513: add_mem_ptr 1
+515: mov r0, 58(':')
+521: mov mem[6], r0
+523: add_mem_ptr 1
+525: sub_mem_ptr 7
+527: write 7
+529: clear_mem
+530: read
+531: set_mem_ptr 0
+533: mov r0, len
+534: mov r1, 26
+540: cmp r0, r1
+543: jne 3
+546: mov r0, mem[0]
+548: add_mem_ptr 1
+550: mov r1, mem[1]
+552: add_mem_ptr 1
+554: mov r2, 115('s')
+560: cmp r0, r2
+563: jne 3
+566: mov r3, 99('c')
+572: cmp r1, r3
+575: jne 3
+578: mov r0, mem[2]
+580: add_mem_ptr 1
+582: mov r1, mem[3]
+584: add_mem_ptr 1
+586: mov r2, 117('u')
+592: cmp r0, r2
+595: jne 3
+598: mov r3, 99('c')
+604: cmp r1, r3
+607: jne 3
+610: mov r0, mem[4]
+612: add_mem_ptr 1
+614: mov r1, mem[5]
+616: add_mem_ptr 1
+618: mov r2, 116('t')
+624: cmp r0, r2
+627: jne 3
+630: mov r3, 102('f')
+636: cmp r1, r3
+639: jne 3
+642: mov r0, mem[6]
+644: add_mem_ptr 1
+646: mov r2, 123('{')
+652: cmp r0, r2
+655: jne 3
+658: set_mem_ptr 0
+660: add_mem_ptr 25
+662: mov r0, mem[25]
+664: mov r2, 125('}')
+670: cmp r0, r2
+673: jne 3
+676: set_mem_ptr 0
+678: add_mem_ptr 7
+680: push 12
+685: push 1
+690: mov r0, mem[7]
+692: pop r1
+694: xor r0, r1
+697: add r0, r1
+700: mov mem[7], r0
+702: push r1
+704: add_mem_ptr 1
+706: pop r2
+708: pop r3
+710: cmp r2, r3
+713: je_rel 735
+715: push r0
+717: mov r0, 1
+723: add r2, r0
+726: pop r0
+728: push r3
+730: push r2
+732: jmp 690
+735: set_mem_ptr 7
+737: mov r2, mem[7]
+739: mov r3, 69('E')			
+745: cmp r2, r3
+748: jne 3
+751: add_mem_ptr 1
+753: mov r2, mem[8]
+755: mov r3, 122('z')
+761: cmp r2, r3
+764: jne 3
+767: add_mem_ptr 1
+769: mov r2, mem[9]
+771: mov r3, 95('_')
+777: cmp r2, r3
+780: jne 3
+783: add_mem_ptr 1
+785: mov r2, mem[10]
+787: mov r3, 86('V')
+793: cmp r2, r3
+796: jne 3
+799: add_mem_ptr 1
+801: mov r2, mem[11]
+803: mov r3, 113('q')
+809: cmp r2, r3
+812: jne 3
+815: add_mem_ptr 1
+817: mov r2, mem[12]
+819: mov r3, 122('z')
+825: cmp r2, r3
+828: jne 3
+831: add_mem_ptr 1
+833: mov r2, mem[13]
+835: mov r3, 122('z')
+841: cmp r2, r3
+844: jne 3
+847: add_mem_ptr 1
+849: mov r2, mem[14]
+851: mov r3, 133
+857: cmp r2, r3
+860: jne 3
+863: add_mem_ptr 1
+865: mov r2, mem[15]
+867: mov r3, 113('q')			
+873: cmp r2, r3
+876: jne 3
+879: add_mem_ptr 1
+881: mov r2, mem[16]
+883: mov r3, 112('p')
+889: cmp r2, r3
+892: jne 3
+895: add_mem_ptr 1
+897: mov r2, mem[17]
+899: mov r3, 95('_')
+905: cmp r2, r3
+908: jne 3
+911: add_mem_ptr 1
+913: mov r2, mem[18]
+915: mov r3, 77('M')
+921: cmp r2, r3
+924: jne 3
+927: add_mem_ptr 1
+929: mov r2, mem[19]
+931: mov r3, 121('y')
+937: cmp r2, r3
+940: jne 3
+943: add_mem_ptr 1
+945: mov r2, mem[20]
+947: mov r3, 123('{')
+953: cmp r2, r3
+956: jne 3
+959: add_mem_ptr 1
+961: mov r2, mem[21]
+963: mov r3, 118('v')
+969: cmp r2, r3
+972: jne 3
+975: add_mem_ptr 1
+977: mov r2, mem[22]
+979: mov r3, 137
+985: cmp r2, r3
+988: jne 3
+991: add_mem_ptr 1
+993: mov r2, mem[23]
+995: mov r3, 144
+1001: cmp r2, r3
+1004: jne 3
+1007: add_mem_ptr 1
+1009: mov r2, mem[24]
+1011: mov r3, 137
+1017: cmp r2, r3
+1020: jne 3
+1023: add_mem_ptr 1
+1025: clear_mem
+1026: set_mem_ptr 0
+1028: mov r0, 10
+1034: mov mem[0], r0
+1036: add_mem_ptr 1
+1038: mov r0, 67('C')		# Ez_Vqzz\x85qp_My{v\x89\x90\x89
+1044: mov mem[1], r0
+1046: add_mem_ptr 1
+1048: mov r0, 111('o')
+1054: mov mem[2], r0
+1056: add_mem_ptr 1
+1058: mov r0, 114('r')
+1064: mov mem[3], r0
+1066: add_mem_ptr 1
+1068: mov r0, 114('r')
+1074: mov mem[4], r0
+1076: add_mem_ptr 1
+1078: mov r0, 99('c')
+1084: mov mem[5], r0
+1086: add_mem_ptr 1
+1088: mov r0, 116('t')
+1094: mov mem[6], r0
+1096: add_mem_ptr 1
+1098: mov r0, 33('!')
+1104: mov mem[7], r0
+1106: add_mem_ptr 1
+1108: mov r0, 10
+1114: mov mem[8], r0
+1116: add_mem_ptr 1
+1118: set_mem_ptr 0
+1120: write 8
+1122: end
+1123: end
